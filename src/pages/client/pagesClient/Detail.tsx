@@ -1,5 +1,3 @@
-import { FC } from 'react'
-import Home from './Home'
 import { Link, useParams } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { getProduct } from '@/services/product'

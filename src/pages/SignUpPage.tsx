@@ -1,5 +1,5 @@
-import { loginForm, signUpForm } from '@/services/auth'
-import { LoginForm, SignUpForm } from '@/types/Auth'
+import { signUpForm } from '@/services/auth'
+import { SignUpForm } from '@/types/Auth'
 import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { useNavigate } from 'react-router-dom'

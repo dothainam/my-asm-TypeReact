@@ -1,6 +1,5 @@
 import { updateProduct } from '@/services/product'
 import { Product, ProductFormValue } from '@/types/Product'
-import { error } from 'console'
 import { FC, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
